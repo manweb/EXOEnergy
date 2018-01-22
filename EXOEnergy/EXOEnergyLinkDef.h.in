@@ -1,0 +1,8 @@
+#pragma link C++ nestedtypedefs; // from an autogen
+
+#pragma link C++ class std::vector<std::pair<int ,TString> >+;
+#pragma link C++ class std::vector<std::pair<int ,TString> >::iterator;
+#pragma link C++ class std::set<TString>+;
+#pragma link C++ class std::set<TString>::iterator;
+#pragma link C++ class std::pair<int ,TString>+;
+#pragma link C++ class std::pair<int ,TString>::*+;
